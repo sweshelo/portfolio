@@ -17,9 +17,9 @@ const useStyles = makeStyles(()=> ({
     },
     name : {
         margin : '5px',
-        fontSize : '1.5em',
+        fontSize : '1.0em',
     },
-    history : {
+    description : {
         fontSize : '0.9em',
         paddingLeft : '10px',
     }
@@ -37,11 +37,8 @@ const AboutMe = ()=> {
             />
             <CardContent className={classes.content}>
                 <Typography className={classes.name}>Sweshelo</Typography>
-                <div className={classes.history}>
-                <Typography className={classes.history}>2021/09/07 生</Typography>
-                <Typography className={classes.history}>独立行政法人 都城工業高等専門学校 電気情報工学科 中退</Typography>
-                <Typography className={classes.history}>基本情報技術者</Typography>
-                </div>
+                <Typography className={classes.description}>自画像提供 : twitterのFF</Typography>
+                <Typography className={classes.description}>撮影時 : 2019年</Typography>
             </CardContent>
         </Card>
     )
