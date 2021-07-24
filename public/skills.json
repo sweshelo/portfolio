@@ -64,7 +64,7 @@
         },
         {
             "name" : "COJシミュレータ",
-            "url", "https://www.youtube.com/watch?v=HGIWcG4Wrsg",
+            "url" : "https://www.youtube.com/watch?v=HGIWcG4Wrsg",
             "description" : "2019年に制作。Nintendo3DSでプログラミングができるソフト『プチコン3号』にて作成した、アーケードゲーム「Code of Joker」のシミュレータ。スタックについて理解を深めることが出来ました。"
         }
     ]
