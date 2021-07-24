@@ -49,6 +49,23 @@
             "name" : "Docker",
             "image" : "/img/skill-docker.png",
             "description" : "社内ツールの作成は主に私一人でやっていましたが、一人アルバイトの新しい子が入ったおかげで、開発環境の共有が必要になり勉強しました。"
+        },
+        {
+            "name" : "PowerShell",
+            "image" : "/img/skill-powershell.png",
+            "description" : "社内で利用するPCキッティング用バッチファイルをPowerShellに全て置き換えた経験を皮切りにして以来、汎ゆる面において利用しています。私の中で、十分に自身を持てる数少ないスキルです。"
+        }
+    ],
+    "product" : [
+        {
+            "name" : "dropout",
+            "url" : null,
+            "description" : "2019年に制作。私が初めてWebアプリと言えるものを作った最初の作品です。暖色系のUIが特徴のアカウントありの掲示板です。現在は一切保守などは行っておらず放置状態です。"
+        },
+        {
+            "name" : "COJシミュレータ",
+            "url", "https://www.youtube.com/watch?v=HGIWcG4Wrsg",
+            "description" : "2019年に制作。Nintendo3DSでプログラミングができるソフト『プチコン3号』にて作成した、アーケードゲーム「Code of Joker」のシミュレータ。スタックについて理解を深めることが出来ました。"
         }
     ]
 }
