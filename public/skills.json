@@ -1,0 +1,54 @@
+{
+    "skills" : [
+        {
+            "name" : "JavaScript",
+            "image" : "/img/skill-js.png",
+            "description" : "Webアプリ制作に用いています。理解が浅いように感じているので、日々勉強中です。"
+        },
+        {
+            "name" : "Sass",
+            "image" : "/img/skill-sass.png",
+            "description" : "mixinが便利なので使っています。特に理由がなければCSS書くときはいつも使っています。"
+        },
+        {
+            "name" : "PHP",
+            "image" : "/img/skill-php.png",
+            "description" : "2019年に初めてドメインを取得した際に勉強しました。SNSライクな掲示板や、ブログを自作しました。"
+        },
+        {
+            "name" : "MySQL",
+            "image" : "/img/skill-mysql.png",
+            "description" : "PHPと同じく、掲示板やブログを作成するにあたって必要になり勉強しました。"
+        },
+        {
+            "name" : "apache",
+            "image" : "/img/skill-apache.png",
+            "description" : "自宅サーバのテストページにアクセス制限を敷いたり、バーチャルホストの設定、SSLの有効化、CORS許可など様々な目的のためにある程度勉強しました。"
+        },
+        {
+            "name" : "Linux",
+            "image" : "/img/skill-linux.png",
+            "description" : "高専時代にChromeBookを改造してLinuxを使い始めたのがキッカケで、メインPCはUbuntu+Xfec4を利用しています。その他、サーバとしてもLinuxを利用しています。"
+        },
+        {
+            "name" : "Git",
+            "image" : "/img/skill-git.png",
+            "description" : "最近理解が及んできました。コミット粒度がバラバラなので、自分が困らない程度にこまめなコミットを心がけます。Gitではないですが、GitHubにもできる限り毎日学習内容をアウトプットしています。"
+        },
+        {
+            "name" : "Vim",
+            "image" : "/img/skill-vim.png",
+            "description" : "高専時代、使っていたChromeBookのストレージが16GBという極貧生活を送っていたり、RasPiにSSHする頻度が高かったことから、CUIのエディタを勉強しようという意欲があったので、今ではPowerShell以外はVim(正確にはneoVim)を使っています。近いうちに、PowerShellを快適に書ける環境をVimscriptで整えたいです。"
+        },
+        {
+            "name" : "React",
+            "image" : "/img/skill-react.png",
+            "description" : "つい最近学び始めた技術です。このポートフォリオサイトもReactで作成しています。かつてDOM操作をinnerHTMLでやっていた自分を呪っています。"
+        },
+        {
+            "name" : "Docker",
+            "image" : "/img/skill-docker.png",
+            "description" : "社内ツールの作成は主に私一人でやっていましたが、一人アルバイトの新しい子が入ったおかげで、開発環境の共有が必要になり勉強しました。"
+        }
+    ]
+}

@@ -16,6 +16,12 @@ const useStyles = makeStyles(()=> ({
         padding : '3px',
         flex : '1',
     },
+    skillName : {
+        fontSize : '1.0em',
+        fontWeight : 'bold',
+        marginTop : '8px',
+        marginBottom : '8px',
+    }
 }));
 
 
@@ -26,7 +32,7 @@ const SkillCard = (props)=> {
         <Card className={classes.root}>
             <img className={classes.image} src={props.imagePath} alt={props.imageTitle} />
             <CardContent className={classes.content}>
-                <Typography variant="h5">{props.skillName}</Typography>
+                <Typography variant="h5" className={classes.skillName}>{props.skillName}</Typography>
                 <Typography variant="body2">{props.skillText}</Typography>
             </CardContent>
         </Card>

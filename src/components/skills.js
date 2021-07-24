@@ -9,6 +9,7 @@ const useStyles = makeStyles(()=> ({
     },
     title: {
         padding : '5px',
+        fontSize : '1.2em',
         fontWeight : 'bold',
     }
 }));
@@ -19,7 +20,7 @@ const Skills = ()=> {
 
     const [skills, setSkills] = useState([]);
     useEffect(()=>{
-        fetch('http://192.168.255.97:3000/skills.json').then(res=>res.json()).then((res)=>{
+        fetch('https://sweshelo.jp/skills.json').then(res=>res.json()).then((res)=>{
             setSkills(res.skills);
         })
     },[]);
